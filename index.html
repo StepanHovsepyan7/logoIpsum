@@ -21,7 +21,7 @@
             <div>
                 <a href="#" class="text-white text-[30px]"><img src="img/logo.png" alt=""></a>
             </div>
-            <ul class="flex justify-end items-center gap-[60px] ml-auto text-[#110229]">
+            <ul class=" hidden justify-end items-center gap-[60px] ml-auto text-[#110229] lg:flex ">
                 <li class="font-medium text-base ">
                     <a href="">HOME</a>
                 </li>
@@ -46,51 +46,21 @@
         <section>
             <div class="max-w-[1440px] mx-auto py-5 px-4 flex items-center w-full pt-38 ">
                 <div
-                    class="bgimg bg-[url('img/home.png')] bg-cover bg-center w-full h-[600px] rounded-[50px] overflow-hidden">
-                    <div class="mt-[92px] ml-[89px]">
+                    class="bgimg bg-[url('img/home.png')] bg-cover bg-center w-full  rounded-[50px] overflow-hidden bg-position-[center] bg-center h-[600px]">
+                    <div class="mt-[92px] ml-[8px] lg:ml-[50px]">
                         <div>
-                            <h1 class="font-bold text-[56px] max-w-[490px]">Easy way to find a
+                            <h1 class="font-bold text-[30px] sm:text-[35px] xl:text-[56px] max-w-[490px]">Easy way to
+                                find a
                                 perfect property</h1>
-                            <p class="text-[#585981] max-w-[470px] font-medium text-[22px] pt-[39px]">
+                            <p class="text-[#585981] max-w-[470px] font-medium text-[22px] pt-[39px] ">
                                 We provide a complete service for the sale,
                                 purchase or rental of real estate.
                             </p>
                         </div>
                         <ul class="flex gap-[55px] pt-[62px] items-center">
                             <li
-                                class="text-[#110229] font-bold bg-white w-[102px] h-[39px] text-center pt-2  rounded-t-lg">
+                                class="text-[#110229] font-bold bg-white w-[102px] h-[39px] text-center pt-2 rounded-t-lg">
                                 <a href="">RENT</a>
-                                <div
-                                    class="w-[918px] h-[102px]  shadow-[0px_30px_60px_-15px_#8F90BC26] backdrop-blur-[20px] bg-[rgba(255,255,255,0.8)] rounded-lg">
-                                    <div class="flex wrap pl-5 pt-5">
-                                        <div class="flex flex-col text-start">
-                                            <h4>Location</h4>
-                                            <p class="text-[#8F90A6] font-normal">Select Your City <i
-                                                    class="fa-solid fa-location-dot ml-[53px] cursor-pointer"></i>
-                                            </p>
-                                        </div>
-                                        <div class="flex items-center mt-[30px] rounded-lg"
-                                            style="height: 4px; width: 46px; background-color: #DCDCEB; transform: rotate(90deg);">
-                                        </div>
-                                        <div class="flex flex-col text-start">
-                                            <h4>Property Type</h4>
-                                            <p class="text-[#8F90A6] font-normal">Choose Property Type <i
-                                                    class="fa-solid fa-caret-down ml-[53px] cursor-pointer"></i>
-                                            </p>
-                                        </div>
-                                        <div class="flex items-center mt-[30px] rounded-lg"
-                                            style="height: 4px; width: 46px; background-color: #DCDCEB; transform: rotate(90deg);">
-                                        </div>
-                                        <div class="flex flex-col text-start">
-                                            <h4>Price Range</h4>
-                                            <p class="text-[#8F90A6] font-normal"> Choose Price Range</p>
-                                        </div>
-                                        <div
-                                            class="flex items-center ml-auto mr-10 bg-[#1DAEFF] rounded-lg h-[54px] w-[54px] text-center pl-5 cursor-pointer">
-                                            <i class="fa-solid fa-magnifying-glass text-white"></i>
-                                        </div>
-                                    </div>
-                                </div>
                             </li>
                             <li class="text-[#8F90A6]">
                                 <a href="">BUY</a>
@@ -99,6 +69,39 @@
                                 <a href="">SELL</a>
                             </li>
                         </ul>
+                        <div
+                            class="w-full h-full pb-5  shadow-[0px_30px_60px_-15px_#8F90BC26] backdrop-blur-[20px] bg-[rgba(255,255,255,0.8)] rounded-lg lg:w-[948px]">
+                            <div class="flex  pl-5 pt-5">
+                                <div class="flex flex-col text-start">
+                                    <h4 class="text-[15px] lg:text-[20px] font-normal">Location</h4>
+                                    <p class="text-[#8F90A6] text-[15px] lg:text-[20px] font-normal"">Select Your City <i
+                                        class=" fa-solid fa-location-dot ml-[10px] lg:ml-[53px] cursor-pointer"></i>
+                                    </p>
+                                </div>
+                                <div class="flex items-center mt-[30px] rounded-lg"
+                                    style="height: 4px; width: 46px; background-color: #DCDCEB; transform: rotate(90deg);">
+                                </div>
+                                <div class="flex flex-col text-start text-[15px] lg:font-normal">
+                                    <h4 class="text-[15px] lg:text-[20px] font-normal">Property Type</h4>
+                                    <p class="text-[#8F90A6] text-[15px] lg:text-[20px] font-normal">Choose Property
+                                        Type <i
+                                            class="fa-solid fa-caret-down ml-[10px] lg:ml-[53px] cursor-pointer"></i>
+                                    </p>
+                                </div>
+                                <div class="flex items-center mt-[30px] rounded-lg"
+                                    style="height: 4px; width: 46px; background-color: #DCDCEB; transform: rotate(90deg);">
+                                </div>
+                                <div class="flex flex-col text-start ">
+                                    <h4 class="text-[15px] lg:text-[20px] font-normal">Price Range</h4>
+                                    <p class="text-[#8F90A6] text-[15px] lg:text-[20px] font-normal"> Choose Price Range
+                                    </p>
+                                </div>
+                                <div
+                                    class="flex items-center ml-auto mr-3 bg-[#1DAEFF] rounded-lg h-[62px] w-[62px] text-center pl-5 cursor-pointer">
+                                    <i class="fa-solid fa-magnifying-glass text-white"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -148,11 +151,12 @@
                 </div>
 
                 <div class="flex flex-wrap mt-[36px] gap-[30px] justify-between">
-                    <div class="w-[585px] h-[249px] border-2 border-[#DCDCEB] rounded-[30px] p-5 flex">
+                    <div class="w-full md:w-[585px] h-[249px] border-2 border-[#DCDCEB] rounded-[30px] p-5 flex">
                         <img src="img/ad1.png" alt="" class="rounded-lg object-cover">
                         <div class="ml-5 flex flex-col justify-between w-full">
-                            <h4 class="font-bold text-[28px] leading-tight">103/143 West Street,<br> Crows Nest</h4>
-                            <div class="flex space-x-4 text-gray-500 text-[14px] mt-2">
+                            <h4 class="font-bold text-[20px] md:text-[28px] leading-tight">103/143 West Street,<br>
+                                Crows Nest</h4>
+                            <div class="flex flex-wrap space-x-2 md:flex space-x-4 text-gray-500 text-[14px] mt-2">
                                 <span class="font-bold">10 Bedroom</span>
                                 <span class="font-bold">150 M</span>
                                 <span class="font-bold">2 Garage</span>
@@ -160,16 +164,17 @@
                             <div class="flex justify-between items-center mt-4">
                                 <span class="text-gray-500 text-[14px] font-bold">Posted by X Builder</span>
                                 <span
-                                    class="bg-gray-400 bg-opacity-30 text-white font-semibold px-4 py-2 rounded-lg text-[14px]">$45,545</span>
+                                    class="bg-gray-400 bg-opacity-30 text-white font-semibold px-4 py-2 rounded-lg text-[14px] cursor-pointer">$45,545</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="w-[585px] h-[249px] border-2 border-[#DCDCEB] rounded-[30px] p-5 flex">
+                    <div class="w-full md:w-[585px] h-[249px] border-2 border-[#DCDCEB] rounded-[30px] p-5 flex">
                         <img src="img/ad2.png" alt="" class="rounded-lg object-cover">
                         <div class="ml-5 flex flex-col justify-between w-full">
-                            <h4 class="font-bold text-[28px] leading-tight">103/143 West Street,<br> Crows Nest</h4>
-                            <div class="flex space-x-4 text-gray-500 text-[14px] mt-2">
+                            <h4 class="font-bold text-[20px] md:text-[28px] leading-tight">103/143 West Street,<br>
+                                Crows Nest</h4>
+                            <div class="flex flex-wrap space-x-2 md:flex space-x-4 text-gray-500 text-[14px] mt-2">
                                 <span class="font-bold">10 Bedroom</span>
                                 <span class="font-bold">150 M</span>
                                 <span class="font-bold">2 Garage</span>
@@ -177,7 +182,7 @@
                             <div class="flex justify-between items-center mt-4">
                                 <span class="text-gray-500 text-[14px] font-bold">Posted by X Builder</span>
                                 <span
-                                    class="bg-gray-400 bg-opacity-30 text-white font-semibold px-4 py-2 rounded-lg text-[14px]">$45,545</span>
+                                    class="bg-gray-400 bg-opacity-30 text-white font-semibold px-4 py-2 rounded-lg text-[14px] cursor-pointer">$45,545</span>
                             </div>
                         </div>
                     </div>
@@ -185,11 +190,13 @@
 
 
                 <div class="flex flex-wrap mt-[36px] gap-[30px] justify-between">
-                    <div class="w-[585px] h-[249px] border-2 border-[#DCDCEB] rounded-[30px] p-5 flex">
+                    <div class="w-full md:w-[585px] h-[249px] border-2 border-[#DCDCEB] rounded-[30px] p-5 flex">
                         <img src="img/ad3.png" alt="" class="rounded-lg object-cover">
                         <div class="ml-5 flex flex-col justify-between w-full">
-                            <h4 class="font-bold text-[28px] leading-tight">103/143 West Street,<br> Crows Nest</h4>
-                            <div class="flex space-x-4 text-gray-500 text-[14px] mt-2">
+                            <h4 class="font-bold text-[20px] md:text-[28px] leading-tight">103/143 West Street,<br>
+                                Crows Nest</h4>
+                            <div
+                                class="flex flex-wrap space-x-2 md:flex space-x-4  text-gray-500 text-[14px] mt-2 cursor-pointer">
                                 <span class="font-bold">10 Bedroom</span>
                                 <span class="font-bold">150 M</span>
                                 <span class="font-bold">2 Garage</span>
@@ -197,16 +204,17 @@
                             <div class="flex justify-between items-center mt-4">
                                 <span class="text-gray-500 text-[14px] font-bold">Posted by X Builder</span>
                                 <span
-                                    class="bg-gray-400 bg-opacity-30 text-white font-semibold px-4 py-2 rounded-lg text-[14px]">$45,545</span>
+                                    class="bg-gray-400 bg-opacity-30 text-white font-semibold px-4 py-2 rounded-lg text-[14px] cursor-pointer">$45,545</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="w-[585px] h-[249px] border-2 border-[#DCDCEB] rounded-[30px] p-5 flex">
+                    <div class="w-full md:w-[585px] h-[249px] border-2 border-[#DCDCEB] rounded-[30px] p-5 flex">
                         <img src="img/ad4.png" alt="" class="rounded-lg object-cover">
                         <div class="ml-5 flex flex-col justify-between w-full">
-                            <h4 class="font-bold text-[28px] leading-tight">103/143 West Street,<br> Crows Nest</h4>
-                            <div class="flex space-x-4 text-gray-500 text-[14px] mt-2">
+                            <h4 class="font-bold text-[20px] md:text-[28px] leading-tight">103/143 West Street,<br>
+                                Crows Nest</h4>
+                            <div class="flex flex-wrap space-x-2 md:flex space-x-4  text-gray-500 text-[14px] mt-2">
                                 <span class="font-bold">10 Bedroom</span>
                                 <span class="font-bold">150 M</span>
                                 <span class="font-bold">2 Garage</span>
@@ -214,18 +222,19 @@
                             <div class="flex justify-between items-center mt-4">
                                 <span class="text-gray-500 text-[14px] font-bold">Posted by X Builder</span>
                                 <span
-                                    class="bg-gray-400 bg-opacity-30 text-white font-semibold px-4 py-2 rounded-lg text-[14px]">$45,545</span>
+                                    class="bg-gray-400 bg-opacity-30 text-white font-semibold px-4 py-2 rounded-lg text-[14px] cursor-pointer">$45,545</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="flex flex-wrap mt-[36px] gap-[30px] justify-between">
-                    <div class="w-[585px] h-[249px] border-2 border-[#DCDCEB] rounded-[30px] p-5 flex">
+                    <div class="w-full md:w-[585px] h-[249px] border-2 border-[#DCDCEB] rounded-[30px] p-5 flex">
                         <img src="img/ad5.png" alt="" class="rounded-lg object-cover">
                         <div class="ml-5 flex flex-col justify-between w-full">
-                            <h4 class="font-bold text-[28px] leading-tight">103/143 West Street,<br> Crows Nest</h4>
-                            <div class="flex space-x-4 text-gray-500 text-[14px] mt-2">
+                            <h4 class="font-bold text-[20px] md:text-[28px] leading-tight">103/143 West Street,<br>
+                                Crows Nest</h4>
+                            <div class="flex flex-wrap space-x-2 md:flex space-x-4 text-gray-500 text-[14px] mt-2">
                                 <span class="font-bold">10 Bedroom</span>
                                 <span class="font-bold">150 M</span>
                                 <span class="font-bold">2 Garage</span>
@@ -233,16 +242,17 @@
                             <div class="flex justify-between items-center mt-4">
                                 <span class="text-gray-500 text-[14px] font-bold">Posted by X Builder</span>
                                 <span
-                                    class="bg-gray-400 bg-opacity-30 text-white font-semibold px-4 py-2 rounded-lg text-[14px]">$45,545</span>
+                                    class="bg-gray-400 bg-opacity-30 text-white font-semibold px-4 py-2 rounded-lg text-[14px] cursor-pointer">$45,545</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="w-[585px] h-[249px] border-2 border-[#DCDCEB] rounded-[30px] p-5 flex">
+                    <div class="w-full md:w-[585px] h-[249px] border-2 border-[#DCDCEB] rounded-[30px] p-5 flex">
                         <img src="img/ad6.png" alt="" class="rounded-lg object-cover">
                         <div class="ml-5 flex flex-col justify-between w-full">
-                            <h4 class="font-bold text-[28px] leading-tight">103/143 West Street,<br> Crows Nest</h4>
-                            <div class="flex space-x-4 text-gray-500 text-[14px] mt-2">
+                            <h4 class="font-bold text-[20px] md:text-[28px] leading-tight">103/143 West Street,<br>
+                                Crows Nest</h4>
+                            <div class="flex flex-wrap space-x-2 md:flex space-x-4 text-gray-500 text-[14px] mt-2">
                                 <span class="font-bold">10 Bedroom</span>
                                 <span class="font-bold">150 M</span>
                                 <span class="font-bold">2 Garage</span>
@@ -250,7 +260,7 @@
                             <div class="flex justify-between items-center mt-4">
                                 <span class="text-gray-500 text-[14px] font-bold">Posted by X Builder</span>
                                 <span
-                                    class="bg-gray-400 bg-opacity-30 text-white font-semibold px-4 py-2 rounded-lg text-[14px]">$45,545</span>
+                                    class="bg-gray-400 bg-opacity-30 text-white font-semibold px-4 py-2 rounded-lg text-[14px] cursor-pointer">$45,545</span>
                             </div>
                         </div>
                     </div>
